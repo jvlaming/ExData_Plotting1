@@ -1,6 +1,10 @@
 ## jvlaming 2015-2-7 for Coursera - Exploratory Data Analysis - Course Project 1
 
 # Objective: duplicate plot 2
+# Usage: 
+# 1) copy this R script to your R working directory, 
+# 2) copy the source data file "household_power_consumption.txt" to the same working directory, 
+# 3) source and run the script. The resulting png file will be placed in your working directory.
 
 # read all data
 df <- read.table("household_power_consumption.txt", header=TRUE, sep=";", na.strings="?")
